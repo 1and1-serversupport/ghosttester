@@ -29,3 +29,5 @@ On Debian/Ubuntu you can use this command:
     aptitude show libc6 | grep Version
 
 To fix the vulnerability just run an update, patches have been released.
+
+Credit goes to: ([http://www.cyberciti.biz/faq/cve-2015-0235-patch-ghost-on-debian-ubuntu-fedora-centos-rhel-linux/])
