@@ -16,4 +16,16 @@ or:
 
     ./ghosttest.sh
 
-If your server/desktop is vulnerable you should perform an updata ASAP!
+If your server/desktop is vulnerable you should perform an updata **ASAP**.
+
+The pathced Version should be **glibc-2.12-1.149.el6_6.5.x86_64** or **glibc-2.12-1.149.el6_6.5.i686**.
+
+On CentOS/RHEL/Suse you can find the version like this:
+
+    rpm -q glibc
+
+On Debian/Ubuntu you can use this command:
+
+    aptitude show libc6 | grep Version
+
+To fix the vulnerability just run an update, patches have been released.
