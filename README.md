@@ -14,6 +14,6 @@ or:
 
 #### CentOS/RHEL/Suse
 
-    -/ghosttest.sh
+    ./ghosttest.sh
 
 If your server/desktop is vulnerable you should perform an updata ASAP!
